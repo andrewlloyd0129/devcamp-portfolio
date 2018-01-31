@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/andrewlloyd0129/ABLViewTool
+  revision: 41dd0b5ff883d9b28995dc9fd3d94408bd689581
+  specs:
+    abl_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +196,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  abl_view_tool!
   bootstrap (~> 4.0.0)
   byebug
   coffee-rails (~> 4.2)
