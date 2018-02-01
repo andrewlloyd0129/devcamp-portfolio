@@ -59,3 +59,5 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'abl_view_tool', git: 'https://github.com/andrewlloyd0129/ABLViewTool'
+
+gem 'petergate', '~> 1.8', '>= 1.8.1'
