@@ -1,5 +1,3 @@
-alert("hey there 2");
-
 ;(function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory);
