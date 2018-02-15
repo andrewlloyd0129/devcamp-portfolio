@@ -31,7 +31,6 @@ html,
 body {
   height: 100%;
 }
-
 body {
   color: #fff;
   text-align: center;
@@ -214,10 +213,27 @@ body {
   margin: 20px;
 }
 
-.tech-news a {
-  color: green
-}
-
 .tech-news > .card {
   padding: 30px;
+}
+
+.tech-news a {
+  color: green;
+}
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
 }
