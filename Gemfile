@@ -67,7 +67,7 @@ gem 'mini_magick', '~> 4.8'
 gem 'cocoon', '~> 1.2', '>= 1.2.11'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.2'
-gem 'redis', '~> 3.3', '>= 3.3.3'
+gem 'redis', '~> 2.0'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 
