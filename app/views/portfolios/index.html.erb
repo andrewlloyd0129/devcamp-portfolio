@@ -2,6 +2,10 @@
   <div class="container">
     <%= source_helper("alert alert-warning") %>
 
+    <% if logged_in?(:site_admin) %>
+      <%=link_to "New Portfolio", new_portfolio_path %>
+    <% end %>
+
     <div class="row <%= "sortable" if logged_in?(:site_admin) %>">
       <%= render partial: 'portfolio_item', collection: @portfolio_items %>
     </div>
