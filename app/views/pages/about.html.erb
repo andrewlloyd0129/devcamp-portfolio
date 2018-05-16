@@ -1,83 +1,92 @@
 <div class="app-card-container">
-  <div class="card">
-    <h1>About Me</h1>
+  <div class="contact-page-card">
+    <div class="card">
+      <div class="pls-help">
+        <h1>About Me</h1>
 
-    <hr>
+        <hr>
 
-    <div class="row">
-      <div class="col-md-4">
-        <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: 'profile-img' %>
-        <div class="skills">
-          <h3 class="skills-heading">Time Spent With</h3>
-          <% @skills.each do |skill| %>
-            <div class="skill">
-              <h4><%= skill.title %></h4>
-              <div class="progress">
-                <div
+        <div class="row">
+          <div class="col-md-4">
+            <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: 'profile-img' %>
+            <div class="skills">
+              <h3 class="skills-heading">Time Spent With</h3>
+              <% @skills.each do |skill| %>
+              <div class="skill">
+                <h4><%= skill.title %></h4>
+                <div class="progress">
+                  <div
                   class="progress-bar progress-bar-striped bg-warning"
                   role="progressbar"
                   aria-valuenow="<%= skill.percent_utilized %>"
                   aria-valuemax="100"
                   style="width: <%= skill.percent_utilized %>%"
-                ></div>
+                  ></div>
+                </div>
               </div>
+              <% end %>
             </div>
-          <% end %>
-        </div>
-      </div>
+          </div>
 
-      <div class="col-md-8">
-        <p>With over a decade of development experience in a number of industries I realized that the typical product creation process between clients and developers was flawed. All too often developers rarely communicate to clients throughout the development stage, resulting in a final product that fails to reach the goal sought by the customer and end user.</p>
+          <div class="col-md-8">
+            <p>With a year and a half of professional development experience, I am glad glad to say I have found my passion in life and am excited to continue growing my in my career as a developer.</p>
 
-        <p>For this reason I decided to utilize a completely different development pattern that focuses on highly focused communication and transparent design patterns. When I take on a project not only do I work to craft the application according to the client's specifications, I give daily updates to ensure that the project is aligning properly with the client's goals. The end result is the right product, delivered on time, and on budget.</p>
+            <p>Being raised by a small business owner in the cabinet industry I learned of the value of hard work and developed an excelent work ethic from a young age. This work ethic has led me to accomplish great things personally and professionally. While being the staff accountant at my dad's business I was privledged to be tasked with transfering his accounting system from Excel to Quickbooks and create and publish reports for him. In accomplishing this great task I learned the fun of being able to write my own system and processes. At that point I had been a hobbiest developer for a year or so and I decided that it was time to make that my full time job so I took my drive and work ethic and enrolled in a 600+ hour development course and decided to pursue development professionally.</p>
 
-        <p>
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#jobHistory"
-            aria-expanded="false"
-            aria-controler="jobHistory"
-          >
-            Job History
-          </button>
+            <p>
+              <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="collapse"
+              data-target="#jobHistory"
+              aria-expanded="false"
+              aria-controler="jobHistory"
+              >
+              Job History
+            </button>
 
-          <button
+            <button
             class="btn btn-primary"
             type="button"
             data-toggle="collapse"
             data-target="#education"
             aria-expanded="false"
             aria-controler="education"
-          >
+            >
             Education
           </button>
         </p>
 
         <p>
           <div class="collapse" id="jobHistory">
-            <div class="card card-block">
-              Job 1
+            <div class="card card-block education">
+              <h5>Paraiso Gaming Studios</h5>
+              <div> - Employed Sept 2016 - Present</div>
+              <div> - CEO and Software Engineer</div>
             </div>
-            <div class="card card-block">
-              Job 2
+            <div class="card card-block education">
+              <h5>Lloyds Cabinetry</h5>
+              <div> - Employed Jan 2015 - 2018</div>
+              <div> - Staff Accountant</div>
             </div>
           </div>
 
           <div class="collapse" id="education">
-            <div class="card card-block">
-              School 1
+            <div class="card card-block education">
+              <h5>Bottega Software Development School</h5>
+              <div> - Certificate of Software Development</div>
+              <div> - Graduated April 2018</div>
             </div>
-            <div class="card card-block">
-              School 2
-            </div>
-            <div class="card card-block">
-              School 3
+            <div class="card card-block education">
+              <h5>LDS Business College</h5>
+              <div> - AAS in Business Entrepreneurship</div>
+              <div> - Graduated December 2017</div>
             </div>
           </div>
         </p>
       </div>
     </div>
   </div>
+</div>
+</div>
 </div>

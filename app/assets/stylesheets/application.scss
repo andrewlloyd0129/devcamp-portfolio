@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "gritter";
+@import "font-awesome";
 
 /*
  * Globals
@@ -181,6 +182,7 @@ h6, .h6 {
 .card-block {
   color: black;
   text-align: left;
+  padding-bottom: 2%;
 }
 
 .auth-links a {
@@ -264,4 +266,24 @@ h6, .h6 {
 .skills-heading {
   text-align: center;
   font-size: 1.6em;
+}
+
+.contact-page-card {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.pls-help {
+  padding:50px;
+}
+
+.education {
+  padding:5px;
+  font-size: .9em;
+}
+
+.contact-social-links {
+  font-size: 2.5em;
+  margin: 5px;
+  padding-right: 8px;
 }
