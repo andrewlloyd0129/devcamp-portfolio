@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "gritter";
+@import "font-awesome";
 
 /*
  * Globals
@@ -279,4 +280,10 @@ h6, .h6 {
 .education {
   padding:5px;
   font-size: .9em;
+}
+
+.contact-social-links {
+  font-size: 2.5em;
+  margin: 5px;
+  padding-right: 8px;
 }
