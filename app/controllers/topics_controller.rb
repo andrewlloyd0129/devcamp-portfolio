@@ -15,6 +15,10 @@ class TopicsController < ApplicationController
     end
   end
 
+  def test
+    @topics = Blog.all
+  end
+
   private
 
   def set_sidebar_topics

@@ -5,3 +5,13 @@
     <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary" %>
   </p>
 </div>
+
+          <%= video_tag(
+              'Love-Coding.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'Love-Coding.jpg'
+            )
+            %>
