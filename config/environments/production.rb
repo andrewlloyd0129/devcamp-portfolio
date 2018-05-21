@@ -92,6 +92,6 @@ config.webpacker.check_yarn_integrity = false
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_cable.allowed_request_origins = ["https://abl-portfolio.herokuapp.com", "http://abl-portfolio.herokuapp.com"]
-  config.action_cable.url = "wss://abl-portfolio.herokuapp.com/cable"
+  config.action_cable.allowed_request_origins = ["https://abl-portfolio2.herokuapp.com", "http://abl-portfolio2.herokuapp.com"]
+  config.action_cable.url = "wss://abl-portfolio2.herokuapp.com/cable"
 end
